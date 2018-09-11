@@ -1,4 +1,4 @@
-$navbar-default-bg: #1E8449;
+$navbar-default-bg: #b72121;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -55,6 +55,9 @@ $navbar-default-bg: #1E8449;
   padding-bottom: 15px;
 }
 
+.container {
+  height: 550px;
+}
 
 footer {
   margin-top: 10px;
@@ -81,6 +84,3 @@ footer ul li {
   margin-left: 15px;
 }
 
-.container {
-  height: 550px;
-}
