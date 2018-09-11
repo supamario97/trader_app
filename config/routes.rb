@@ -8,6 +8,12 @@ Rails.application.routes.draw do
   get 'gear', to:'pages#gear'
 
   get 'ebook', to: 'pages#ebook'
+  
+  get 'videos', to: 'pages#videos'
+  
+  get 'forex', to: 'pages#forex'
+  
+  get 'new', to: 'pages#new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
