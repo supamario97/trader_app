@@ -1,20 +1,19 @@
+$navbar-default-bg: #3d3535;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$navbar-default-bg: #3d3535;
-
 #logo {
   float: left;
   font-size: 1.7em;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: none;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -23,7 +22,7 @@ $navbar-default-bg: #3d3535;
 }
 
 .jumbotron {
-  background-image: asset-url('Overland-x-trader.PNG');
+  background-image: asset-url('coffee_people.jpg');
   background-size: cover;
   height: 550px;
 }
@@ -80,4 +79,3 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
-
