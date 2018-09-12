@@ -22,6 +22,11 @@ $navbar-default-bg: #4b6b2e;
   font-weight: bold;
 }
 
+.links:hover {
+    color: none;
+  text-decoration: none;
+}
+
 .center {
   text-align: center;
 }
