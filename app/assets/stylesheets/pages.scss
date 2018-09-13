@@ -5,7 +5,7 @@ $navbar-default-bg: #4b6b2e;
 
 #logo {
   float: left;
-  font-size: 6.0em;
+  font-size: 4.5em;
   color: black;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -18,22 +18,12 @@ $navbar-default-bg: #4b6b2e;
 }
 
 .container-fluid {
-    height: 100px;
+    height: 85px;
 }
 
 .links {
   color: black;
   font-weight: bold;
-}
-
-.click:hover {
-  color: none;
-  text-decoration: none; 
-}
-
-#actions:hover {
-  color: none;
-  text-decoration: none;
 }
 
 .center {
