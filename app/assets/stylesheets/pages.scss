@@ -17,14 +17,13 @@ $navbar-default-bg: #4b6b2e;
   text-decoration: none;
 }
 
+.container-fluid {
+    height: 150px;
+}
+
 .links {
   color: black;
   font-weight: bold;
-}
-
-.links:hover {
-    color: none;
-  text-decoration: none;
 }
 
 .center {
