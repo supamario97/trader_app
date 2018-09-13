@@ -5,7 +5,7 @@ $navbar-default-bg: #4b6b2e;
 
 #logo {
   float: left;
-  font-size: 2.4em;
+  font-size: 6.0em;
   color: black;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -26,7 +26,12 @@ $navbar-default-bg: #4b6b2e;
   font-weight: bold;
 }
 
-.links:hover {
+.click:hover {
+  color: none;
+  text-decoration: none; 
+}
+
+#actions:hover {
   color: none;
   text-decoration: none;
 }
