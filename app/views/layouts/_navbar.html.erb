@@ -14,21 +14,21 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="links"><%= link_to "New", new_path, class:"click"  %></li>
-        <li class="links"><%= link_to "Forex", forex_path, class:"click" %></li>
+        <li class="links"><%= link_to "New", new_path, id:"bogo"  %></li>
+        <li class="links"><%= link_to "Forex", forex_path,  id:"bogo" %></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle links" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false", id:"actions" >Actions<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle links" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><font size="4" color="black" >Actions</font><span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><%= link_to "Ebooks" , ebook_path %></li>
-            <li><%= link_to "Clothing", gear_path %></li>
-            <li><%= link_to "Videos", videos_path %></li>
+             <hr><li><%= link_to "Ebooks" , ebook_path, id:"bogo" %></li><hr>
+             <li><%= link_to "Clothing", gear_path, id:"bogo" %></li><hr>
+            <li><%= link_to "Videos", videos_path, id:"bogo" %></li><hr>
           </ul>
         </li>
       </ul>
        </form>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shopping cart<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><font size="4" color="black">Shopping cart</font><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
