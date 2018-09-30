@@ -1,4 +1,4 @@
-$navbar-default-bg: #4b6b2e;
+$navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -6,10 +6,12 @@ $navbar-default-bg: #4b6b2e;
 #logo {
   float: left;
   font-size: 1.7em;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: 800;
+  font-family: cursive;
+  font-style: oblique;
 }
 
 #logo:hover {
@@ -18,7 +20,7 @@ $navbar-default-bg: #4b6b2e;
 }
 
 #bogo {
-   color: black;
+   color: white;
   font-size: 1.4em;
 }
 
@@ -38,26 +40,17 @@ $navbar-default-bg: #4b6b2e;
   margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: -1px;
+  font-style: oblique;
+  font-family: cursive;
 }
 
 .btn-xlarge {
   font-size: 1.7em;
 }
 
-.article-actions {
-  border-top: 1px solid #eaeaea;
-  padding-top: 5px;
-}
-
-.article-title {
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.article-body {
-  border-top: 1px solid #eaeaea;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.text {
+  font-style: oblique;
+  font-family: cursive;
 }
 
 footer {
@@ -84,4 +77,6 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+
+
 
